@@ -1,0 +1,331 @@
+[
+  {
+    "name": "Southpark",
+    "season": "19",
+    "episode": "10",
+    "date": "2015.12.09",
+    "comment": ""
+  },
+  {
+    "name": "Supernatural",
+    "season": "13",
+    "episode": "23",
+    "date": "2018.05.17",
+    "comment": ""
+  },
+  {
+    "name": "Family guy",
+    "season": "13",
+    "episode": "18",
+    "date": "2015.05.17",
+    "comment": ""
+  },
+  {
+    "name": "American dad",
+    "season": "12",
+    "episode": "15",
+    "date": "2015.06.01",
+    "comment": "190"
+  },
+  {
+    "name": "The big bang theory",
+    "season": "10",
+    "episode": "24",
+    "date": "2017.05.11",
+    "comment": "season 11 ready"
+  },
+  {
+    "name": "Shameless",
+    "season": "08",
+    "episode": "12",
+    "date": "2019.03.10",
+    "comment": ""
+  },
+  {
+    "name": "Brooklyn Nine Nine",
+    "season": "05",
+    "episode": "22",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Vikings",
+    "season": "05",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Orange is the new black",
+    "season": "04",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Girls",
+    "season": "04",
+    "episode": "N/A",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Colony",
+    "season": "03",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Daredevil",
+    "season": "03",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Travelers",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Mozard in the jungle",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Better call saul",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Silicon Valley",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Rick and Morty",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The 100",
+    "season": "03",
+    "episode": "16",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The Last Man On Earth",
+    "season": "03",
+    "episode": "18",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Black Sails",
+    "season": "03",
+    "episode": "10",
+    "date": "",
+    "comment": "season 4 ready"
+  },
+  {
+    "name": "Defiance",
+    "season": "03",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Sick Note",
+    "season": "02",
+    "episode": "08",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The Punisher",
+    "season": "02",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Atypical",
+    "season": "02",
+    "episode": "10",
+    "date": "",
+    "comment": "7 september 2018"
+  },
+  {
+    "name": "Jessica jones",
+    "season": "02",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Mr. Robot",
+    "season": "02",
+    "episode": "12",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "sense8",
+    "season": "02",
+    "episode": "11",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Legit",
+    "season": "02",
+    "episode": "N/A",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Deadbeat",
+    "season": "02",
+    "episode": "12",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Dominion",
+    "season": "02",
+    "episode": "N/A",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Sword Art Online",
+    "season": "02",
+    "episode": "01",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Awkward",
+    "season": "02",
+    "episode": "12",
+    "date": "",
+    "comment": "final season and episode nov 2 2015 MAYBE?????"
+  },
+  {
+    "name": "Titans",
+    "season": "01",
+    "episode": "11",
+    "date": "",
+    "comment": "??"
+  },
+  {
+    "name": "The New Legends of Monkey",
+    "season": "01",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The Orville",
+    "season": "01",
+    "episode": "12",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The Handmaid's Tale",
+    "season": "01",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Anne with en E",
+    "season": "01",
+    "episode": "07",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Westworld",
+    "season": "01",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Into the badlands",
+    "season": "01",
+    "episode": "06",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Stranger Things",
+    "season": "01",
+    "episode": "08",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "The Expanse",
+    "season": "01",
+    "episode": "10",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Almost Human",
+    "season": "01",
+    "episode": "13",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "No game no life",
+    "season": "01",
+    "episode": "12",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Attack on Titan",
+    "season": "01",
+    "episode": "25",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Dragons: Riders of Berk",
+    "season": "01",
+    "episode": "N/A",
+    "date": "",
+    "comment": ""
+  },
+  {
+    "name": "Doctor who",
+    "season": "01",
+    "episode": "10",
+    "date": "",
+    "comment": "and nothing after"
+  },
+  {
+    "name": "Tainted Love",
+    "season": "01",
+    "episode": "N/A",
+    "date": "",
+    "comment": ""
+  }
+]

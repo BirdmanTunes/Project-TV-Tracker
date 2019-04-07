@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<AnchorPane fx:id="tab3" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.Tab3Controller">
+               <children>
+                  <BorderPane prefHeight="700.0" prefWidth="825.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <center>
+                        <TableView fx:id="table" editable="true" BorderPane.alignment="CENTER">
+                          <columns>
+                            <TableColumn fx:id="name" prefWidth="291.0" text="Name" />
+                            <TableColumn fx:id="season" minWidth="50.0" prefWidth="50.0" style="-fx-alignment: CENTER;" text="Season" />
+                              <TableColumn fx:id="episode" minWidth="50.0" prefWidth="50.0" style="-fx-alignment: CENTER;" text="Episode" />
+                              <TableColumn fx:id="date" prefWidth="93.0" style="-fx-alignment: CENTER;" text="Date" />
+                              <TableColumn fx:id="comment" prefWidth="349.0" text="Comment" />
+                          </columns>
+                        </TableView>
+                     </center>
+                     <bottom>
+                        <GridPane prefHeight="88.0" prefWidth="803.0" vgap="5.0" BorderPane.alignment="CENTER">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                              <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <BorderPane.margin>
+                              <Insets />
+                           </BorderPane.margin>
+                           <children>
+                              <HBox alignment="CENTER_RIGHT" spacing="20.0" style="-fx-border-color: gray;" GridPane.rowIndex="1">
+                                 <children>
+                        <Button fx:id="ongoing" mnemonicParsing="false" onAction="#toOngoing" prefWidth="127.0" text="&lt; to Ongoing" />
+                        <Button fx:id="toBeStarted" mnemonicParsing="false" onAction="#toBeStarted" prefWidth="127.0" text="to Be Started &gt;" />
+                        <Button fx:id="seasonEnded" mnemonicParsing="false" onAction="#toSeasonEnded" prefWidth="127.0" text="to Season Ended &gt;" />
+                        <Button fx:id="endedForGood" mnemonicParsing="false" onAction="#toEndedForGood" prefWidth="127.0" text="to Ended for Good &gt;">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets>
+                           <HBox.margin>
+                              <Insets />
+                           </HBox.margin>
+                        </Button>
+                                    <Label fx:id="message" prefWidth="130.0" text="" />
+                                    <Button fx:id="save" mnemonicParsing="false" onAction="#saveToAllTabs" text="Save" />
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                                 </padding>
+                              </HBox>
+                              <HBox alignment="CENTER_RIGHT" spacing="20.0" style="-fx-border-color: gray;">
+                                 <children>
+                                    <TextField fx:id="nameField" prefHeight="25.0" prefWidth="215.0" promptText="Name" />
+                                    <TextField fx:id="seasonField" prefHeight="25.0" prefWidth="58.0" promptText="Season" />
+                                    <TextField fx:id="episodeField" prefHeight="25.0" prefWidth="58.0" promptText="Episode" />
+                                    <TextField fx:id="dateField" prefHeight="25.0" prefWidth="90.0" promptText="Date" />
+                                    <TextField fx:id="commentField" promptText="Comment" />
+                                    <Button fx:id="add" disable="true" mnemonicParsing="false" onAction="#add" text="Add" />
+                                    <Button fx:id="delete" mnemonicParsing="false" onAction="#delete" text="Delete" />
+                                 </children>
+                                 <opaqueInsets>
+                                    <Insets />
+                                 </opaqueInsets>
+                                 <padding>
+                                    <Insets bottom="10.0" left="20.0" right="20.0" top="10.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </GridPane>
+                     </bottom>
+                  </BorderPane>
+               </children>
+            </AnchorPane>

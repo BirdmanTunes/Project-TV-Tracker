@@ -1,0 +1,135 @@
+
+/* 
+.table-cell:filled {
+  -fx-background-color: #515658;
+}
+*/
+.table-row-cell:selected > .table-cell {
+  -fx-background-color: #515658;
+}
+
+.table-cell:odd {
+  -fx-background-color: #262626;
+}
+
+.table-cell:even {
+  -fx-background-color: #2C2C2C;
+}
+
+/* 
+.list-cell:filled:hover {
+  -fx-background-color: pink;
+}
+*/
+.table-cell {
+	-fx-text-fill: #A8A8A8
+}
+
+.table-cell {
+	-fx-border-color: #202020
+}
+
+.table-view {
+	-fx-border-color: #202020
+}
+
+.table-view {
+	-fx-background-color: #151515
+}
+
+.table-cell:filled:selected {
+  -fx-background-color: #515658;
+}
+
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(#131313 0%, #424141 100%);
+}
+
+.table-view .column-header-background .label{
+    -fx-background-color: transparent;
+    -fx-text-fill: #A8A8A8;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane {
+    -fx-background-color: black;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #262626;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane, .corner {
+    -fx-background-color: transparent;
+}
+
+.button {
+	-fx-background-color: #202020;
+	-fx-text-fill: #A8A8A8;
+}
+
+.button:pressed {
+	-fx-background-color: #262626;
+	-fx-text-fill: #A8A8A8;
+}
+
+.borderpanel {
+	-fx-background-color: #2C2C2C;
+}
+
+HBox {
+	-fx-background-color: #2C2C2C;
+}
+
+.tab-header-background{
+	-fx-background-color: #2C2C2C;
+}
+
+.tab-label{
+	-fx-background-color: #202020;
+	-fx-text-fill: #A8A8A8
+}
+
+.tab {
+  -fx-background-color: #202020;
+}
+
+
+.tab:selected {
+  -fx-background-color: #262626;
+}
+
+.tab:selected .focus-indicator {
+  -fx-border-color: transparent;
+}
+ 
+.tab:selected .tab-label {
+	-fx-background-color: #262626;
+    -fx-text-fill: #A8A8A8;
+}
+
+
+.anchorpane {
+	-fx-background-color: #2C2C2C;
+}
