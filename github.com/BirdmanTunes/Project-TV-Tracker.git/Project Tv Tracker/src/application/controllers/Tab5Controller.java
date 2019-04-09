@@ -86,9 +86,9 @@ public class Tab5Controller {
 				} catch (ParseException e) {
 				    e.printStackTrace();
 				}
-				if (days>7)
+				if (days>358)
 				Tab1Controller.getList2().put(days, list.get(i).getName() + ": New season next week!");
-				if (days>31)
+				if (days>335)
 				Tab1Controller.getList2().put(days, list.get(i).getName() + ": New Season next month!");
 				if (days>365)
 				Tab1Controller.getList2().put(days, list.get(i).getName() + ": 1 New season out!");
